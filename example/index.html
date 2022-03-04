@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="../dist/timelyhooks.js"></script>
+
+    <script type="text/babel">
+      const { useAsyncState } = window.timelyhooks;
+      console.log(useAsyncState);
+      const Demo = () => {
+        const [count, setCount] = useAsyncState(0);
+        return (
+          <div>
+            <div>Count is {count}.</div>
+            <button
+              onClick={() => {
+                setCount(count + 1).then((value) => {
+                  alert(`The latest count value: ${value}!`);
+                });
+              }}
+            >
+              count + 1
+            </button>
+          </div>
+        );
+      };
+      ReactDOM.render(<Demo />, document.getElementById('root'));
+    </script>
+  </body>
+</html>

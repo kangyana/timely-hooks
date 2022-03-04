@@ -30,3 +30,8 @@ functions/*
 screenshot
 .firebase
 .eslintcache
+
+# build
+dist
+es
+lib
