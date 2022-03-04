@@ -11,16 +11,14 @@
   "types": "./lib/index.d.ts",
   "unpkg": "dist/timelyhooks.js",
   "sideEffects": false,
-  "authors": {
+  "author": {
     "name": "kangyana",
-    "email": "564469630@qq.com"
+    "email": "564469630@qq.com",
+    "url": "https://github.com/kangyana"
   },
   "bugs": {
     "url": "https://github.com/kangyana/timely-hooks/issues",
     "email": "564469630@qq.com"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.com/"
   },
   "repository": "https://github.com/kangyana/timely-hooks",
   "homepage": "https://github.com/kangyana/timely-hooks",
