@@ -1,6 +1,4 @@
-<p align="center">
-  <span style="font-size: 50px;color: #a0d911;">TIMELY HOOKS</span>
-</p>
+<h1 align="center" style="font-size: 50px;color: #a0d911;">TIMELY HOOKS</h1>
 
 <div align="center">
 
@@ -8,8 +6,8 @@
 
 [![NPM version][npm]][npm-url]
 [![NPM downloads][npm-downloads]][npm-url]
-![gzip size](https://img.badgesize.io/https:/unpkg.com/dynamic-load-script?label=gzip%20size&compression=gzip)
-![GitHub](https://img.shields.io/github/license/kangyana/dynamic-load-script)
+![gzip size](https://img.badgesize.io/https:/unpkg.com/timely-hooks?label=gzip%20size&compression=gzip)
+![GitHub](https://img.shields.io/github/license/kangyana/timely-hooks)
 
 [English](https://github.com/kangyana/timely-hooks/blob/master/README.md) | 简体中文
 
@@ -40,19 +38,15 @@ import { useAsyncEffect } from 'timely-hooks';
 
 ## 💻 在线体验
 
-[![Edit demo for timely-hooks](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/demo-for-ahooks-forked-fg79k?file=/src/App.js)
+[![Edit demo for timely-hooks](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/demo-for-timely-hooks-forked-0bl727)
 
 ## 🤝 参与共建
 
 ```bash
 $ git clone git@github.com:kangyana/timely-hooks.git
 $ cd hooks
-$ yarn run init
-$ yarn start
 ```
 
-打开浏览器访问 http://127.0.0.1:8000
-
-[npm]: https://img.shields.io/npm/v/dynamic-load-script.svg?style=flat
-[npm-url]: https://www.npmjs.com/package/dynamic-load-script
-[npm-downloads]: https://img.shields.io/npm/dm/dynamic-load-script.svg?style=flat
+[npm]: https://img.shields.io/npm/v/timely-hooks.svg?style=flat
+[npm-url]: https://www.npmjs.com/package/timely-hooks
+[npm-downloads]: https://img.shields.io/npm/dm/timely-hooks.svg?style=flat

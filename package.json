@@ -9,7 +9,7 @@
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "types": "./lib/index.d.ts",
-  "unpkg": "dist/timely-hooks.js",
+  "unpkg": "dist/timelyhooks.js",
   "sideEffects": false,
   "authors": {
     "name": "kangyana",
